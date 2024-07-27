@@ -77,7 +77,6 @@ ax.set(xlim=xlim, ylim=ylim, autoscale_on=False)
 gradient_image(ax, direction=1, extent=(xmin, xmax, ymin, ymax), 
                 cmap=plt.cm.autumn_r, cmap_range=(0, 1), alpha=1,
                 vmin = 0,vmax = 1)
-ax.set_aspect('auto')
 
 plt.scatter(np.random.uniform(low = 0.8,high = 1.2,size = 100), 
             np.random.uniform(low = 5,high = 8,size = 100), c = "w", edgecolors='k', linewidths = 2)
